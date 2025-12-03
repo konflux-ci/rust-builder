@@ -35,6 +35,19 @@ RUN ./build.sh 1.88.0 1.89.0
 RUN ./build.sh 1.89.0 1.90.0
 ```
 
+## Refreshing RPM dependencies
+
+You will need:
+
+* An installation
+  of [rpm-lockfile-prototype](https://github.com/konflux-ci/rpm-lockfile-prototype?tab=readme-ov-file#installation)
+
+Then run:
+
+```bash
+rpm-lockfile-prototype --image registry.access.redhat.com/ubi9/ubi:latest rpms.in.yaml 
+```
+
 ## Consuming
 
 The builder image has `cargo` in its path. It can be used to build applications right away.
