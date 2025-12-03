@@ -10,11 +10,7 @@ COPY build.sh /build/
 
 WORKDIR /build
 
-RUN ./build.sh 1.85.0
-RUN ./build.sh 1.85.0 1.86.0
-RUN ./build.sh 1.86.0 1.87.0
-RUN ./build.sh 1.87.0 1.88.0
-RUN ./build.sh 1.88.0 1.89.0
+RUN ./build.sh 1.89.0
 RUN ./build.sh 1.89.0 1.90.0
 RUN ./build.sh 1.90.0 1.91.0
 
