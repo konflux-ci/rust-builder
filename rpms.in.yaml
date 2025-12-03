@@ -1,0 +1,18 @@
+packages:
+  - git
+  - python
+  - gcc
+  - g++
+  - cmake
+  - rust
+  - cargo
+  - ninja-build
+  - openssl-devel
+  - xz
+  - npm
+contentOrigin:
+  repofiles:
+    - "./ubi.repo"
+arches:
+  - aarch64
+  - x86_64

@@ -1,0 +1,17 @@
+metadata:
+  version: "1.0"
+artifacts:
+  - download_url: https://static.rust-lang.org/dist/rustc-1.85.0-src.tar.xz
+    checksum: "sha256:d542c397217b5ba5bac7eb274f5ca62d031f61842c3ba4cc5328c709c38ea1e7"
+  - download_url: https://static.rust-lang.org/dist/rustc-1.86.0-src.tar.xz
+    checksum: "sha256:d939eada065dc827a9d4dbb55bd48533ad14c16e7f0a42e70147029c82a7707b"
+  - download_url: https://static.rust-lang.org/dist/rustc-1.87.0-src.tar.xz
+    checksum: "sha256:8623b8651893e8c6aebfa45b6a90645a4f652f7b18189a0992a90d11ac2631f4"
+  - download_url: https://static.rust-lang.org/dist/rustc-1.88.0-src.tar.xz
+    checksum: "sha256:0c1dcbb4f762513d021e1a282c0ac58c0a423642b3a6bf581cafb5414df4193e"
+  - download_url: https://static.rust-lang.org/dist/rustc-1.89.0-src.tar.xz
+    checksum: "sha256:0b9d55610d8270e06c44f459d1e2b7918a5e673809c592abed9b9c600e33d95a"
+  - download_url: https://static.rust-lang.org/dist/rustc-1.90.0-src.tar.xz
+    checksum: "sha256:6bfeaddd90ffda2f063492b092bfed925c4b8c701579baf4b1316e021470daac"
+  - download_url: https://static.rust-lang.org/dist/rustc-1.91.0-src.tar.xz
+    checksum: "sha256:9b94161dba3aa32192e0e75f7891912d98095ffb86087b07a05af35a0265a938"
