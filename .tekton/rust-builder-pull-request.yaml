@@ -18,20 +18,51 @@ metadata:
   name: rust-builder-on-pull-request
   namespace: rust-sig-tenant
 spec:
+  timeouts:
+    pipeline: 96h
+    tasks: 96h
+  taskRunSpecs:
+    - pipelineTaskName: sast-coverity-check
+      stepSpecs:
+        - name: build
+          computeResources:
+            limits:
+              cpu: "8"
+              memory: "16Gi"
+            requests:
+              cpu: "8"
+              memory: "16Gi"
   params:
-  - name: git-url
-    value: '{{source_url}}'
-  - name: revision
-    value: '{{revision}}'
-  - name: output-image
-    value: quay.io/redhat-user-workloads/rust-sig-tenant/rust-builder:on-pr-{{revision}}
-  - name: image-expires-after
-    value: 5d
-  - name: build-platforms
-    value:
-    - linux/x86_64
-  - name: dockerfile
-    value: Dockerfile
+    - name: git-url
+      value: '{{source_url}}'
+    - name: revision
+      value: '{{revision}}'
+    - name: output-image
+      value: quay.io/redhat-user-workloads/rust-sig-tenant/rust-builder:on-pr-{{revision}}
+    - name: image-expires-after
+      value: 5d
+    - name: build-platforms
+      value:
+        - linux-d160-m8xlarge/amd64
+        - linux-d160-m8xlarge/arm64
+    - name: dockerfile
+      value: Containerfile
+    - name: hermetic
+      value: 'true'
+    - name: prefetch-input
+      value: |
+        [
+          {
+            "type": "generic",
+            "path": "."
+          },
+          {
+            "type": "rpm",
+            "path": "."
+          }
+        ]
+    - name: run-sast-coverity
+      value: "false"
   pipelineSpec:
     description: |
       This pipeline is ideal for building multi-arch container images from a Containerfile while maintaining trust after pipeline customization.
@@ -115,6 +146,8 @@ spec:
         set of values is determined by the configuration of the multi-platform-controller.
       name: build-platforms
       type: array
+    - default: "true"
+      name: run-sast-coverity
     results:
     - description: ""
       name: IMAGE_URL
@@ -209,6 +242,7 @@ spec:
           value:
           - $(params.build-platforms)
       name: build-images
+      timeout: 12h
       params:
       - name: IMAGE
         value: $(params.output-image)
@@ -450,6 +484,7 @@ spec:
         values:
         - "false"
     - name: sast-coverity-check
+      timeout: 48h
       params:
       - name: image-digest
         value: $(tasks.build-image-index.results.IMAGE_DIGEST)
@@ -498,6 +533,10 @@ spec:
         operator: in
         values:
         - success
+      - input: $(params.run-sast-coverity)
+        operator: in
+        values:
+        - "true"
     - name: coverity-availability-check
       runAfter:
       - build-image-index
