@@ -7,3 +7,5 @@ artifacts:
     checksum: "sha256:6bfeaddd90ffda2f063492b092bfed925c4b8c701579baf4b1316e021470daac"
   - download_url: https://static.rust-lang.org/dist/rustc-1.91.0-src.tar.xz
     checksum: "sha256:9b94161dba3aa32192e0e75f7891912d98095ffb86087b07a05af35a0265a938"
+  - download_url: https://static.rust-lang.org/dist/rustc-1.92.0-src.tar.xz
+    checksum: "sha256:ebee170bfe4c4dfc59521a101de651e5534f4dae889756a5c97ca9ea40d0c307"
