@@ -21,6 +21,12 @@ incrementally build up to the most recent released version.
   -COPY --from=builder /install/1.90.0 /usr/local/share/rust
   +COPY --from=builder /install/1.91.0 /usr/local/share/rust
   ```
+* Update the label on the of the file:
+
+  ```diff
+  -LABEL konflux.additional-tags="1.90, 1.90.0"
+  +LABEL konflux.additional-tags="1.91, 1.91.0"
+  ```
 
 When RHEL updates its Rust version, it is possible to remove older Rust versions. For example, should RHEL upgrade from
 `1.85.0` to `1.87.0`:

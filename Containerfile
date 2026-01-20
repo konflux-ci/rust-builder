@@ -1,5 +1,7 @@
 FROM registry.access.redhat.com/ubi9/ubi:latest AS builder
 
+LABEL konflux.additional-tags="1.92, 1.92.0"
+
 RUN dnf install --setop install_weak_deps=false --nodocs -y git python gcc g++ cmake rust cargo ninja-build openssl-devel xz
 
 RUN mkdir /build
