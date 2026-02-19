@@ -65,7 +65,7 @@ It is also possible to copy the toolchain over to another container, using:
 ```Dockerfile
 FROM registry.access.redhat.com/ubi10/ubi:latest
 
-COPY --from=quay.io/redhat-user-workloads/trusted-content-tenant/rust:latest /usr/local/share/rust /usr/local/share/rust
+COPY --from=quay.io/konflux-ci/rust-builder:latest /usr/local/share/rust /usr/local/share/rust
 
 ENV PATH=$PATH:/usr/local/share/rust/bin
 ```
