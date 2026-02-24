@@ -16,3 +16,5 @@ contentOrigin:
 arches:
   - aarch64
   - x86_64
+  - s390x
+  - ppc64le
