@@ -634,13 +634,13 @@ arches:
     name: perl-vars
     evr: 1.05-481.1.el9_6
     sourcerpm: perl-5.32.1-481.1.el9_6.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/p/python-unversioned-command-3.9.25-3.el9_7.noarch.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/p/python-unversioned-command-3.9.25-3.el9_7.1.noarch.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 15791
-    checksum: sha256:624671b3cc8d4e90eb53a05aae5c5533c6f9f4cb9c18ec0720ac98e328b8f69b
+    size: 15875
+    checksum: sha256:f0b982bd1aef79c7389814cf16dbfe64737be8692bd9f9ae2f0a8618e397bdd6
     name: python-unversioned-command
-    evr: 3.9.25-3.el9_7
-    sourcerpm: python3.9-3.9.25-3.el9_7.src.rpm
+    evr: 3.9.25-3.el9_7.1
+    sourcerpm: python3.9-3.9.25-3.el9_7.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/r/rust-1.88.0-1.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
     size: 28639155
@@ -781,6 +781,20 @@ arches:
     name: pkgconf-pkg-config
     evr: 1.7.3-10.el9
     sourcerpm: pkgconf-1.7.3-10.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/p/python3-3.9.25-3.el9_7.1.aarch64.rpm
+    repoid: ubi-9-for-aarch64-baseos-rpms
+    size: 33254
+    checksum: sha256:b0a5c7df41a0d5943242e92bcf1e6d11f9934afa3d7b2a4e357fc459f7b97676
+    name: python3
+    evr: 3.9.25-3.el9_7.1
+    sourcerpm: python3.9-3.9.25-3.el9_7.1.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/p/python3-libs-3.9.25-3.el9_7.1.aarch64.rpm
+    repoid: ubi-9-for-aarch64-baseos-rpms
+    size: 8473829
+    checksum: sha256:f64cf789ff3f3fc687cfc347ff1741bb834be1556ecd461e07e524cb027e1d79
+    name: python3-libs
+    evr: 3.9.25-3.el9_7.1
+    sourcerpm: python3.9-3.9.25-3.el9_7.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/v/vim-filesystem-8.2.2637-23.el9_7.noarch.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
     size: 13179
@@ -1163,12 +1177,12 @@ arches:
     checksum: sha256:4d53718592b298ca7c49665b1f4e7bd32dcb42cad15c89345585da9f20d4fcae
     name: pkgconf
     evr: 1.7.3-10.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/p/python3.9-3.9.25-3.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/p/python3.9-3.9.25-3.el9_7.1.src.rpm
     repoid: ubi-9-for-aarch64-baseos-source-rpms
-    size: 20814880
-    checksum: sha256:f73e98391ced9820b58e9e51279611c91ef7916b34bc3078f884d68dd4c0cf3e
+    size: 20821480
+    checksum: sha256:709407d45a96801a59c63a902b341a07acfb91cb0f58a43ee123d3cd1128ff30
     name: python3.9
-    evr: 3.9.25-3.el9_7
+    evr: 3.9.25-3.el9_7.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/v/vim-8.2.2637-23.el9_7.src.rpm
     repoid: ubi-9-for-aarch64-baseos-source-rpms
     size: 12811300
