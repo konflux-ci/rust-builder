@@ -15,17 +15,20 @@ RUN ./build.sh 1.89.0 1.90.0
 RUN ./build.sh 1.90.0 1.91.0
 RUN ./build.sh 1.91.0 1.92.0
 RUN ./build.sh 1.92.0 1.93.1
+RUN ./build.sh 1.93.1 1.94.0
 
 FROM registry.access.redhat.com/ubi9/ubi:latest
 
-LABEL konflux.additional-tags="1.93, 1.93.1"
-LABEL version="1.93.1"
+ARG RUST_VERSION=1.94.0
+
+LABEL konflux.additional-tags="${RUST_VERSION}"
+LABEL version="${RUST_VERSION}"
 
 RUN dnf install -y git python gcc g++ cmake ninja-build openssl-devel npm xz
 
 RUN mkdir /usr/local/lib/rust
 
-COPY --from=builder /install/1.93.1 /usr/local/share/rust
+COPY --from=builder /install/${RUST_VERSION} /usr/local/share/rust
 COPY --from=builder /licenses /licenses
 
 ENV PATH=$PATH:/usr/local/share/rust/bin
