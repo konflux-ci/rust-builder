@@ -15,11 +15,11 @@ RUN ./build.sh 1.89.0 1.90.0
 RUN ./build.sh 1.90.0 1.91.0
 RUN ./build.sh 1.91.0 1.92.0
 RUN ./build.sh 1.92.0 1.93.1
-RUN ./build.sh 1.93.1 1.94.0
+RUN ./build.sh 1.93.1 1.94.1
 
 FROM registry.access.redhat.com/ubi9/ubi:latest
 
-ARG RUST_VERSION=1.94.0
+ARG RUST_VERSION=1.94.1
 
 LABEL konflux.additional-tags="${RUST_VERSION}"
 LABEL version="${RUST_VERSION}"
