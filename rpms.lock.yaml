@@ -781,6 +781,20 @@ arches:
     name: pkgconf-pkg-config
     evr: 1.7.3-10.el9
     sourcerpm: pkgconf-1.7.3-10.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/p/python3-3.9.25-3.el9_7.2.aarch64.rpm
+    repoid: ubi-9-for-aarch64-baseos-rpms
+    size: 33350
+    checksum: sha256:abc463c51d898bf83da87b9d420a8d0a1c2f84a9cd73871025b3cd74d7330a21
+    name: python3
+    evr: 3.9.25-3.el9_7.2
+    sourcerpm: python3.9-3.9.25-3.el9_7.2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/p/python3-libs-3.9.25-3.el9_7.2.aarch64.rpm
+    repoid: ubi-9-for-aarch64-baseos-rpms
+    size: 8476386
+    checksum: sha256:6c00141c14a30ee09284a293871e0636612082b80b4c6657db3ba24816f95cc8
+    name: python3-libs
+    evr: 3.9.25-3.el9_7.2
+    sourcerpm: python3.9-3.9.25-3.el9_7.2.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/v/vim-filesystem-8.2.2637-23.el9_7.1.noarch.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
     size: 20544
@@ -3160,6 +3174,20 @@ arches:
     name: pkgconf-pkg-config
     evr: 1.7.3-10.el9
     sourcerpm: pkgconf-1.7.3-10.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/p/python3-3.9.25-3.el9_7.2.s390x.rpm
+    repoid: ubi-9-for-s390x-baseos-rpms
+    size: 33203
+    checksum: sha256:21ffbe3e0c7cdd9e7d25c003b835745efb42c7d756ac7ab010a0cec1f341f74c
+    name: python3
+    evr: 3.9.25-3.el9_7.2
+    sourcerpm: python3.9-3.9.25-3.el9_7.2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/p/python3-libs-3.9.25-3.el9_7.2.s390x.rpm
+    repoid: ubi-9-for-s390x-baseos-rpms
+    size: 8313081
+    checksum: sha256:5bee9cd98630e50e014de39be223977eec04201fda4c0a0c0b81ab1f45b2023a
+    name: python3-libs
+    evr: 3.9.25-3.el9_7.2
+    sourcerpm: python3.9-3.9.25-3.el9_7.2.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/v/vim-filesystem-8.2.2637-23.el9_7.1.noarch.rpm
     repoid: ubi-9-for-s390x-baseos-rpms
     size: 20544
