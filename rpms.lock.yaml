@@ -781,27 +781,13 @@ arches:
     name: pkgconf-pkg-config
     evr: 1.7.3-10.el9
     sourcerpm: pkgconf-1.7.3-10.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/p/python3-3.9.25-3.el9_7.3.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/v/vim-filesystem-8.2.2637-23.el9_7.3.noarch.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
-    size: 33470
-    checksum: sha256:84af847dc87f04fa8306a2ced5d5f7f59168207937c25e6f38b3ed8b7c54991a
-    name: python3
-    evr: 3.9.25-3.el9_7.3
-    sourcerpm: python3.9-3.9.25-3.el9_7.3.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/p/python3-libs-3.9.25-3.el9_7.3.aarch64.rpm
-    repoid: ubi-9-for-aarch64-baseos-rpms
-    size: 8467075
-    checksum: sha256:188bbfa5e15a34a4640469277ab3b3aa372891f018df980de104dfc205e95e15
-    name: python3-libs
-    evr: 3.9.25-3.el9_7.3
-    sourcerpm: python3.9-3.9.25-3.el9_7.3.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/v/vim-filesystem-8.2.2637-23.el9_7.2.noarch.rpm
-    repoid: ubi-9-for-aarch64-baseos-rpms
-    size: 20860
-    checksum: sha256:e3fc2d706b1e395043a8a9bc76bb04c1ef7174269c840cb73176d00260df2724
+    size: 21062
+    checksum: sha256:891eb1063420092996aaa9805a1de2771786ad0ed0ff399fb5b5bd2fb2c6bd77
     name: vim-filesystem
-    evr: 2:8.2.2637-23.el9_7.2
-    sourcerpm: vim-8.2.2637-23.el9_7.2.src.rpm
+    evr: 2:8.2.2637-23.el9_7.3
+    sourcerpm: vim-8.2.2637-23.el9_7.3.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/x/xz-5.2.5-8.el9_0.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
     size: 235798
@@ -1183,12 +1169,12 @@ arches:
     checksum: sha256:43ab09b5e8666dbd63a4a9d1da2ad641b485d1a6451866bea77c8e1d4cb9d575
     name: python3.9
     evr: 3.9.25-3.el9_7.3
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/v/vim-8.2.2637-23.el9_7.2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/v/vim-8.2.2637-23.el9_7.3.src.rpm
     repoid: ubi-9-for-aarch64-baseos-source-rpms
-    size: 12831935
-    checksum: sha256:05df518a59b103d0a1ba3911b6f638062eac651f54bfe0ffdf75ab169cda0ff3
+    size: 12835218
+    checksum: sha256:22052848ff27210bae49ea0cbc5c6d3e9dfb722ce54b85dc858b235d09654ff0
     name: vim
-    evr: 2:8.2.2637-23.el9_7.2
+    evr: 2:8.2.2637-23.el9_7.3
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/x/xz-5.2.5-8.el9_0.src.rpm
     repoid: ubi-9-for-aarch64-baseos-source-rpms
     size: 1168293
@@ -1981,27 +1967,13 @@ arches:
     name: pkgconf-pkg-config
     evr: 1.7.3-10.el9
     sourcerpm: pkgconf-1.7.3-10.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/p/python3-3.9.25-3.el9_7.3.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/v/vim-filesystem-8.2.2637-23.el9_7.3.noarch.rpm
     repoid: ubi-9-for-ppc64le-baseos-rpms
-    size: 33530
-    checksum: sha256:b97e59ee6305348b7861c9317b4fdd5920969510435697dd0d9f5e9cd2ae04b7
-    name: python3
-    evr: 3.9.25-3.el9_7.3
-    sourcerpm: python3.9-3.9.25-3.el9_7.3.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/p/python3-libs-3.9.25-3.el9_7.3.ppc64le.rpm
-    repoid: ubi-9-for-ppc64le-baseos-rpms
-    size: 8446399
-    checksum: sha256:eeb846eba3100ecd49c163e1795c950cd368b9d0755cad8855aa02410b447e0e
-    name: python3-libs
-    evr: 3.9.25-3.el9_7.3
-    sourcerpm: python3.9-3.9.25-3.el9_7.3.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/v/vim-filesystem-8.2.2637-23.el9_7.2.noarch.rpm
-    repoid: ubi-9-for-ppc64le-baseos-rpms
-    size: 20860
-    checksum: sha256:e3fc2d706b1e395043a8a9bc76bb04c1ef7174269c840cb73176d00260df2724
+    size: 21062
+    checksum: sha256:891eb1063420092996aaa9805a1de2771786ad0ed0ff399fb5b5bd2fb2c6bd77
     name: vim-filesystem
-    evr: 2:8.2.2637-23.el9_7.2
-    sourcerpm: vim-8.2.2637-23.el9_7.2.src.rpm
+    evr: 2:8.2.2637-23.el9_7.3
+    sourcerpm: vim-8.2.2637-23.el9_7.3.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/os/Packages/x/xz-5.2.5-8.el9_0.ppc64le.rpm
     repoid: ubi-9-for-ppc64le-baseos-rpms
     size: 243215
@@ -2383,12 +2355,12 @@ arches:
     checksum: sha256:43ab09b5e8666dbd63a4a9d1da2ad641b485d1a6451866bea77c8e1d4cb9d575
     name: python3.9
     evr: 3.9.25-3.el9_7.3
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/source/SRPMS/Packages/v/vim-8.2.2637-23.el9_7.2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/source/SRPMS/Packages/v/vim-8.2.2637-23.el9_7.3.src.rpm
     repoid: ubi-9-for-ppc64le-baseos-source-rpms
-    size: 12831935
-    checksum: sha256:05df518a59b103d0a1ba3911b6f638062eac651f54bfe0ffdf75ab169cda0ff3
+    size: 12835218
+    checksum: sha256:22052848ff27210bae49ea0cbc5c6d3e9dfb722ce54b85dc858b235d09654ff0
     name: vim
-    evr: 2:8.2.2637-23.el9_7.2
+    evr: 2:8.2.2637-23.el9_7.3
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/baseos/source/SRPMS/Packages/x/xz-5.2.5-8.el9_0.src.rpm
     repoid: ubi-9-for-ppc64le-baseos-source-rpms
     size: 1168293
@@ -3188,27 +3160,13 @@ arches:
     name: pkgconf-pkg-config
     evr: 1.7.3-10.el9
     sourcerpm: pkgconf-1.7.3-10.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/p/python3-3.9.25-3.el9_7.3.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/v/vim-filesystem-8.2.2637-23.el9_7.3.noarch.rpm
     repoid: ubi-9-for-s390x-baseos-rpms
-    size: 33313
-    checksum: sha256:25837145352b413bcd43e48b15eddebddfee9ce705f82fecc07de4265936daf6
-    name: python3
-    evr: 3.9.25-3.el9_7.3
-    sourcerpm: python3.9-3.9.25-3.el9_7.3.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/p/python3-libs-3.9.25-3.el9_7.3.s390x.rpm
-    repoid: ubi-9-for-s390x-baseos-rpms
-    size: 8315495
-    checksum: sha256:112af28cbc41bd202d91b9ebaef09a2e1f318e9660b68c8f4cc7e6ce2f5ccb86
-    name: python3-libs
-    evr: 3.9.25-3.el9_7.3
-    sourcerpm: python3.9-3.9.25-3.el9_7.3.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/v/vim-filesystem-8.2.2637-23.el9_7.2.noarch.rpm
-    repoid: ubi-9-for-s390x-baseos-rpms
-    size: 20860
-    checksum: sha256:e3fc2d706b1e395043a8a9bc76bb04c1ef7174269c840cb73176d00260df2724
+    size: 21062
+    checksum: sha256:891eb1063420092996aaa9805a1de2771786ad0ed0ff399fb5b5bd2fb2c6bd77
     name: vim-filesystem
-    evr: 2:8.2.2637-23.el9_7.2
-    sourcerpm: vim-8.2.2637-23.el9_7.2.src.rpm
+    evr: 2:8.2.2637-23.el9_7.3
+    sourcerpm: vim-8.2.2637-23.el9_7.3.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/os/Packages/x/xz-5.2.5-8.el9_0.s390x.rpm
     repoid: ubi-9-for-s390x-baseos-rpms
     size: 234632
@@ -3590,12 +3548,12 @@ arches:
     checksum: sha256:43ab09b5e8666dbd63a4a9d1da2ad641b485d1a6451866bea77c8e1d4cb9d575
     name: python3.9
     evr: 3.9.25-3.el9_7.3
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/source/SRPMS/Packages/v/vim-8.2.2637-23.el9_7.2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/source/SRPMS/Packages/v/vim-8.2.2637-23.el9_7.3.src.rpm
     repoid: ubi-9-for-s390x-baseos-source-rpms
-    size: 12831935
-    checksum: sha256:05df518a59b103d0a1ba3911b6f638062eac651f54bfe0ffdf75ab169cda0ff3
+    size: 12835218
+    checksum: sha256:22052848ff27210bae49ea0cbc5c6d3e9dfb722ce54b85dc858b235d09654ff0
     name: vim
-    evr: 2:8.2.2637-23.el9_7.2
+    evr: 2:8.2.2637-23.el9_7.3
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/baseos/source/SRPMS/Packages/x/xz-5.2.5-8.el9_0.src.rpm
     repoid: ubi-9-for-s390x-baseos-source-rpms
     size: 1168293
@@ -4374,27 +4332,13 @@ arches:
     name: pkgconf-pkg-config
     evr: 1.7.3-10.el9
     sourcerpm: pkgconf-1.7.3-10.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/p/python3-3.9.25-3.el9_7.3.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/v/vim-filesystem-8.2.2637-23.el9_7.3.noarch.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
-    size: 33505
-    checksum: sha256:29a5d253a87106b87a81366e7485a25c6e31d0d7398c170bf10fe548d5c2d4c6
-    name: python3
-    evr: 3.9.25-3.el9_7.3
-    sourcerpm: python3.9-3.9.25-3.el9_7.3.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/p/python3-libs-3.9.25-3.el9_7.3.x86_64.rpm
-    repoid: ubi-9-for-x86_64-baseos-rpms
-    size: 8480467
-    checksum: sha256:7ba279a66b1f1d93ef9400dc97d98cfe296676794a2e46dc5e46a898e8948c40
-    name: python3-libs
-    evr: 3.9.25-3.el9_7.3
-    sourcerpm: python3.9-3.9.25-3.el9_7.3.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/v/vim-filesystem-8.2.2637-23.el9_7.2.noarch.rpm
-    repoid: ubi-9-for-x86_64-baseos-rpms
-    size: 20860
-    checksum: sha256:e3fc2d706b1e395043a8a9bc76bb04c1ef7174269c840cb73176d00260df2724
+    size: 21062
+    checksum: sha256:891eb1063420092996aaa9805a1de2771786ad0ed0ff399fb5b5bd2fb2c6bd77
     name: vim-filesystem
-    evr: 2:8.2.2637-23.el9_7.2
-    sourcerpm: vim-8.2.2637-23.el9_7.2.src.rpm
+    evr: 2:8.2.2637-23.el9_7.3
+    sourcerpm: vim-8.2.2637-23.el9_7.3.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/x/xz-5.2.5-8.el9_0.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
     size: 235693
@@ -4776,12 +4720,12 @@ arches:
     checksum: sha256:43ab09b5e8666dbd63a4a9d1da2ad641b485d1a6451866bea77c8e1d4cb9d575
     name: python3.9
     evr: 3.9.25-3.el9_7.3
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/v/vim-8.2.2637-23.el9_7.2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/v/vim-8.2.2637-23.el9_7.3.src.rpm
     repoid: ubi-9-for-x86_64-baseos-source-rpms
-    size: 12831935
-    checksum: sha256:05df518a59b103d0a1ba3911b6f638062eac651f54bfe0ffdf75ab169cda0ff3
+    size: 12835218
+    checksum: sha256:22052848ff27210bae49ea0cbc5c6d3e9dfb722ce54b85dc858b235d09654ff0
     name: vim
-    evr: 2:8.2.2637-23.el9_7.2
+    evr: 2:8.2.2637-23.el9_7.3
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/x/xz-5.2.5-8.el9_0.src.rpm
     repoid: ubi-9-for-x86_64-baseos-source-rpms
     size: 1168293
