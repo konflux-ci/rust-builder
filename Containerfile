@@ -10,6 +10,8 @@ COPY build.sh /build/
 
 WORKDIR /build
 
+COPY patches /build/patches
+
 RUN ./build.sh 1.89.0
 RUN ./build.sh 1.89.0 1.90.0
 RUN ./build.sh 1.90.0 1.91.0

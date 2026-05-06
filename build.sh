@@ -24,9 +24,20 @@ tar xaf /cachi2/output/deps/generic/rustc-$TO-src.tar.xz
 
 find . -type f \( -iname 'license' -o -iname 'license.*' -o -iname 'copying' -o -iname 'copying.*' \) -exec cp --parents {} /licenses/ \;
 
+PATCH_DIR="$(cd "$(dirname "$0")" && pwd)/patches/$TO"
+
 # enter source directory
 
 pushd rustc-$TO-src
+
+# apply patches matching the target version
+
+if [[ -d "$PATCH_DIR" ]]; then
+    for patch in $(find "$PATCH_DIR" -maxdepth 1 -name '*.patch' -print | sort); do
+        echo "Applying patch: $patch"
+        git apply "$patch"
+    done
+fi
 
 # configure arguments
 
@@ -38,20 +49,6 @@ fi
 # run build config
 
 ./configure --enable-local-rust --prefix=/install/$TO --enable-vendor --disable-compiler-docs --disable-docs --disable-dist-src --release-channel=stable "${ARGS[@]}"
-
-# create vendor file
-
-cat << EOF > .cargo/config.toml
-[source.crates-io]
-replace-with = "vendored-sources"
-
-[source."git+https://github.com/rust-lang/team"]
-git = "https://github.com/rust-lang/team"
-replace-with = "vendored-sources"
-
-[source.vendored-sources]
-directory = "vendor"
-EOF
 
 # enable more detailed error reporting
 
