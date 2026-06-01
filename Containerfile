@@ -15,10 +15,11 @@ COPY patches /build/patches
 RUN ./build.sh 1.93.1
 RUN ./build.sh 1.93.1 1.94.1
 RUN ./build.sh 1.94.1 1.95.0
+RUN ./build.sh 1.95.0 1.96.0
 
 FROM registry.access.redhat.com/ubi9/ubi:latest
 
-ARG RUST_VERSION=1.95.0
+ARG RUST_VERSION=1.96.0
 
 LABEL konflux.additional-tags="${RUST_VERSION}"
 LABEL version="${RUST_VERSION}"
