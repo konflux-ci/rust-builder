@@ -22,6 +22,8 @@ incrementally build up to the most recent released version.
   +ARG RUST_VERSION=1.91.0
   ```
 
+## Rebase RHEL Rust version
+
 When RHEL updates its Rust version, it is possible to remove older Rust versions. For example, should RHEL upgrade from
 `1.85.0` to `1.87.0`:
 
