@@ -25,7 +25,7 @@ ARG RUST_VERSION=1.97.0
 LABEL konflux.additional-tags="${RUST_VERSION}"
 LABEL version="${RUST_VERSION}"
 
-RUN dnf install -y git python gcc g++ cmake ninja-build openssl-devel npm xz
+RUN dnf install -y git python gcc g++ cmake ninja-build openssl-devel npm xz clang-devel
 
 RUN mkdir /usr/local/lib/rust
 
