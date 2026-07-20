@@ -43,11 +43,16 @@ You will need:
 
 * An installation
   of [rpm-lockfile-prototype](https://github.com/konflux-ci/rpm-lockfile-prototype?tab=readme-ov-file#installation)
+* Update both `ubi9/rpms.in.yaml` and `ubi10/rpms.in.yaml` when adding or removing packages
 
 Then run:
 
 ```bash
-rpm-lockfile-prototype --image registry.access.redhat.com/ubi9/ubi:latest rpms.in.yaml 
+# UBI9
+rpm-lockfile-prototype --image registry.access.redhat.com/ubi9/ubi:latest ubi9/rpms.in.yaml
+
+# UBI10
+rpm-lockfile-prototype --image registry.access.redhat.com/ubi10/ubi:latest ubi10/rpms.in.yaml
 ```
 
 ## Consuming
