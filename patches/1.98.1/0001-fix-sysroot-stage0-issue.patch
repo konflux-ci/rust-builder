@@ -1,0 +1,31 @@
+diff --git a/src/bootstrap/src/core/build_steps/compile.rs b/src/bootstrap/src/core/build_steps/compile.rs
+index 46d05b9d5d2..929bb9d6479 100644
+--- a/src/bootstrap/src/core/build_steps/compile.rs
++++ b/src/bootstrap/src/core/build_steps/compile.rs
+@@ -806,10 +806,11 @@ fn run(self, builder: &Builder<'_>) {
+             let sysroot = builder.out.join(compiler.host.triple).join("stage0-sysroot");
+
+             if builder.local_rebuild {
+-                // On local rebuilds this path might be a symlink to the project root,
+-                // which can be read-only (e.g., on CI). So remove it before copying
++                // On local rebuilds these paths might be symlinks to the project root,
++                // which can be read-only (e.g., on CI). So remove them before copying
+                 // the stage0 lib.
+                 let _ = fs::remove_dir_all(sysroot.join("lib/rustlib/src/rust"));
++                let _ = fs::remove_dir_all(sysroot.join("lib/rustlib/rustc-src/rust"));
+             }
+
+             builder.cp_link_r(&builder.initial_sysroot.join("lib"), &sysroot.join("lib"));
+@@ -2059,7 +2060,11 @@ fn run(self, builder: &Builder<'_>) -> PathBuf {
+         }
+
+         // rustc-src component is already part of CI rustc's sysroot
+-        if !builder.download_rustc() {
++        // Don't create this symlink for stage0: StdLink::run() subsequently
++        // copies the initial sysroot's lib/ into stage0-sysroot/lib/, and if
++        // the initial sysroot contains rustc-src, that copy will follow this
++        // symlink and overwrite the repo sources with the old toolchain's sources.
++        if compiler.stage != 0 && !builder.download_rustc() {
+             let sysroot_lib_rustlib_rustcsrc = sysroot.join("lib/rustlib/rustc-src");
+             t!(fs::create_dir_all(&sysroot_lib_rustlib_rustcsrc));
+             let sysroot_lib_rustlib_rustcsrc_rust = sysroot_lib_rustlib_rustcsrc.join("rust");
