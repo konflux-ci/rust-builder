@@ -1,7 +1,7 @@
 # Separate from Containerfile.ubi10: different base image, bootstrap chain, and RPM lockfile (ubi9/)
 FROM registry.access.redhat.com/ubi9/ubi:latest AS builder
 
-RUN dnf install --setop install_weak_deps=false --nodocs -y git python3 gcc g++ cmake rust cargo ninja-build openssl-devel xz
+RUN dnf install --setop install_weak_deps=false --nodocs -y git python3 gcc g++ cmake rust cargo ninja-build openssl-devel xz zlib-devel
 
 RUN mkdir /build
 RUN mkdir /install

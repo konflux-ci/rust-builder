@@ -2,7 +2,7 @@
 # UBI10 :latest ships rust-1.92.0 (same as UBI9), so the build chain is identical
 FROM registry.access.redhat.com/ubi10/ubi:latest AS builder
 
-RUN dnf install --setop install_weak_deps=false --nodocs -y git python3 gcc g++ cmake rust cargo ninja-build openssl-devel xz
+RUN dnf install --setop install_weak_deps=false --nodocs -y git python3 gcc g++ cmake rust cargo ninja-build openssl-devel xz zlib-devel
 
 RUN mkdir /build
 RUN mkdir /install

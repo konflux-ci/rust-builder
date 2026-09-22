@@ -13,6 +13,7 @@ packages:
   - xz
   - npm
   - clang-devel
+  - zlib-devel
 contentOrigin:
   repofiles:
     - "./ubi.repo"
