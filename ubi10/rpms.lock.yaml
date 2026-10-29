@@ -172,13 +172,13 @@ arches:
     name: glibc-devel
     evr: 2.39-145.el10_2
     sourcerpm: glibc-2.39-145.el10_2.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/aarch64/appstream/os/Packages/k/kernel-headers-6.12.0-211.68.1.el10_2.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/aarch64/appstream/os/Packages/k/kernel-headers-6.12.0-211.69.1.el10_2.aarch64.rpm
     repoid: ubi-10-for-aarch64-appstream-rpms
-    size: 3743533
-    checksum: sha256:f85619e811e4a769282ef84c11af7d1901c37bedefdc7cc4cd9c8d4b32b1c30e
+    size: 3746617
+    checksum: sha256:3dd50eb035a68a3e5d189e20b750e41b74c1ab53c34f5a018b1014ec2635eeb9
     name: kernel-headers
-    evr: 6.12.0-211.68.1.el10_2
-    sourcerpm: kernel-6.12.0-211.68.1.el10_2.src.rpm
+    evr: 6.12.0-211.69.1.el10_2
+    sourcerpm: kernel-6.12.0-211.69.1.el10_2.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/aarch64/appstream/os/Packages/l/libasan-14.3.1-4.4.el10.aarch64.rpm
     repoid: ubi-10-for-aarch64-appstream-rpms
     size: 543502
@@ -1582,13 +1582,13 @@ arches:
     name: glibc-devel
     evr: 2.39-145.el10_2
     sourcerpm: glibc-2.39-145.el10_2.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/ppc64le/appstream/os/Packages/k/kernel-headers-6.12.0-211.68.1.el10_2.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/ppc64le/appstream/os/Packages/k/kernel-headers-6.12.0-211.69.1.el10_2.ppc64le.rpm
     repoid: ubi-10-for-ppc64le-appstream-rpms
-    size: 3763129
-    checksum: sha256:71609247e5660ebc19844493d6b2dd753442a1dcb1623b2ceb3286c6c1113e8e
+    size: 3766205
+    checksum: sha256:83a9262e43a09271613d1a8603f15b6573d1e66c4b422448677db1d2fedbf912
     name: kernel-headers
-    evr: 6.12.0-211.68.1.el10_2
-    sourcerpm: kernel-6.12.0-211.68.1.el10_2.src.rpm
+    evr: 6.12.0-211.69.1.el10_2
+    sourcerpm: kernel-6.12.0-211.69.1.el10_2.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/ppc64le/appstream/os/Packages/l/libasan-14.3.1-4.4.el10.ppc64le.rpm
     repoid: ubi-10-for-ppc64le-appstream-rpms
     size: 552598
@@ -2992,13 +2992,13 @@ arches:
     name: glibc-devel
     evr: 2.39-145.el10_2
     sourcerpm: glibc-2.39-145.el10_2.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/s390x/appstream/os/Packages/k/kernel-headers-6.12.0-211.68.1.el10_2.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/s390x/appstream/os/Packages/k/kernel-headers-6.12.0-211.69.1.el10_2.s390x.rpm
     repoid: ubi-10-for-s390x-appstream-rpms
-    size: 3772805
-    checksum: sha256:c2dd0c9e9faeecca8952cd29981441c1874063337efbee7c1971830009a16aea
+    size: 3775865
+    checksum: sha256:452dadcca6325a83fff668b0f50d93f440619e4a9bfc765451edc633d5289435
     name: kernel-headers
-    evr: 6.12.0-211.68.1.el10_2
-    sourcerpm: kernel-6.12.0-211.68.1.el10_2.src.rpm
+    evr: 6.12.0-211.69.1.el10_2
+    sourcerpm: kernel-6.12.0-211.69.1.el10_2.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/s390x/appstream/os/Packages/l/libasan-14.3.1-4.4.el10.s390x.rpm
     repoid: ubi-10-for-s390x-appstream-rpms
     size: 573505
@@ -3678,13 +3678,13 @@ arches:
     name: libatomic
     evr: 14.3.1-4.4.el10
     sourcerpm: gcc-14.3.1-4.4.el10.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/s390x/baseos/os/Packages/l/libbrotli-1.1.0-8.el10_2.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/s390x/baseos/os/Packages/l/libbrotli-1.1.0-8.el10_2.1.s390x.rpm
     repoid: ubi-10-for-s390x-baseos-rpms
-    size: 398558
-    checksum: sha256:c291cea825bdf0a47afd4d288874325a2f4ffbd8d3508c7986224a384a152a72
+    size: 398789
+    checksum: sha256:5ecfe8a6a23a920cc57538e409b890060d93dbb9382491613311f6c77d835898
     name: libbrotli
-    evr: 1.1.0-8.el10_2
-    sourcerpm: brotli-1.1.0-8.el10_2.src.rpm
+    evr: 1.1.0-8.el10_2.1
+    sourcerpm: brotli-1.1.0-8.el10_2.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/s390x/baseos/os/Packages/l/libcbor-0.11.0-3.el10.s390x.rpm
     repoid: ubi-10-for-s390x-baseos-rpms
     size: 37095
@@ -4085,12 +4085,12 @@ arches:
     checksum: sha256:6f5d62ce38d5f0a6b3dfd107e453ffc05a1bdaf18f13a130303593cb50a7d5b0
     name: binutils
     evr: 2.41-63.el10
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/s390x/baseos/source/SRPMS/Packages/b/brotli-1.1.0-8.el10_2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/s390x/baseos/source/SRPMS/Packages/b/brotli-1.1.0-8.el10_2.1.src.rpm
     repoid: ubi-10-for-s390x-baseos-source-rpms
-    size: 549818
-    checksum: sha256:3c8cd9269c0c62e46e70d9ac08c9d03692d045190be328b2a60dd9281e8e6c28
+    size: 553209
+    checksum: sha256:783891587528f7d5e199e02542370be7554efbb6159cdecd17a2426713748346
     name: brotli
-    evr: 1.1.0-8.el10_2
+    evr: 1.1.0-8.el10_2.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/s390x/baseos/source/SRPMS/Packages/c/c-ares-1.34.6-2.el10_2.src.rpm
     repoid: ubi-10-for-s390x-baseos-source-rpms
     size: 1057352
@@ -4388,13 +4388,13 @@ arches:
     name: glibc-devel
     evr: 2.39-145.el10_2
     sourcerpm: glibc-2.39-145.el10_2.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/appstream/os/Packages/k/kernel-headers-6.12.0-211.68.1.el10_2.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/appstream/os/Packages/k/kernel-headers-6.12.0-211.69.1.el10_2.x86_64.rpm
     repoid: ubi-10-for-x86_64-appstream-rpms
-    size: 3781729
-    checksum: sha256:f91057537c1e5608395b079e0d3dbc44992e10c02c2be031a39fc2f9a5c2387b
+    size: 3784829
+    checksum: sha256:6aa862f0fb2059ee0be4dd11a5fec278d60bd4cad46b84d74a7e4d4145cc0c90
     name: kernel-headers
-    evr: 6.12.0-211.68.1.el10_2
-    sourcerpm: kernel-6.12.0-211.68.1.el10_2.src.rpm
+    evr: 6.12.0-211.69.1.el10_2
+    sourcerpm: kernel-6.12.0-211.69.1.el10_2.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/appstream/os/Packages/l/libedit-devel-3.1-52.20230828cvs.el10.x86_64.rpm
     repoid: ubi-10-for-x86_64-appstream-rpms
     size: 53585
@@ -5074,13 +5074,13 @@ arches:
     name: libatomic
     evr: 14.3.1-4.4.el10
     sourcerpm: gcc-14.3.1-4.4.el10.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/baseos/os/Packages/l/libbrotli-1.1.0-8.el10_2.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/baseos/os/Packages/l/libbrotli-1.1.0-8.el10_2.1.x86_64.rpm
     repoid: ubi-10-for-x86_64-baseos-rpms
-    size: 359544
-    checksum: sha256:d5aff7d0b4534179a4ecf6b2152d75630dc0682e28ca3a6beeff4fe34e6126fa
+    size: 359598
+    checksum: sha256:4fcde75854c5395761ea87865f3dcb22bd82df14f338bc6e4d5f7bc3b56f5eea
     name: libbrotli
-    evr: 1.1.0-8.el10_2
-    sourcerpm: brotli-1.1.0-8.el10_2.src.rpm
+    evr: 1.1.0-8.el10_2.1
+    sourcerpm: brotli-1.1.0-8.el10_2.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/baseos/os/Packages/l/libcbor-0.11.0-3.el10.x86_64.rpm
     repoid: ubi-10-for-x86_64-baseos-rpms
     size: 37307
@@ -5481,12 +5481,12 @@ arches:
     checksum: sha256:6f5d62ce38d5f0a6b3dfd107e453ffc05a1bdaf18f13a130303593cb50a7d5b0
     name: binutils
     evr: 2.41-63.el10
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/baseos/source/SRPMS/Packages/b/brotli-1.1.0-8.el10_2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/baseos/source/SRPMS/Packages/b/brotli-1.1.0-8.el10_2.1.src.rpm
     repoid: ubi-10-for-x86_64-baseos-source-rpms
-    size: 549818
-    checksum: sha256:3c8cd9269c0c62e46e70d9ac08c9d03692d045190be328b2a60dd9281e8e6c28
+    size: 553209
+    checksum: sha256:783891587528f7d5e199e02542370be7554efbb6159cdecd17a2426713748346
     name: brotli
-    evr: 1.1.0-8.el10_2
+    evr: 1.1.0-8.el10_2.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/baseos/source/SRPMS/Packages/c/c-ares-1.34.6-2.el10_2.src.rpm
     repoid: ubi-10-for-x86_64-baseos-source-rpms
     size: 1057352
