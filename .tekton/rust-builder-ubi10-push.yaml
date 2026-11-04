@@ -53,6 +53,15 @@ spec:
       ]
   - name: build-source-image
     value: "true"
+  taskRunSpecs:
+    - pipelineTaskName: rpms-signature-scan
+      stepSpecs:
+        - name: rpms-signature-scan
+          computeResources:
+            requests:
+              memory: 1Gi
+            limits:
+              memory: 1Gi
   taskRunTemplate:
     serviceAccountName: build-pipeline-rust-builder-ubi10
   workspaces:
