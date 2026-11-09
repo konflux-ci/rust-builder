@@ -172,13 +172,13 @@ arches:
     name: glibc-devel
     evr: 2.39-145.el10_2
     sourcerpm: glibc-2.39-145.el10_2.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/aarch64/appstream/os/Packages/k/kernel-headers-6.12.0-211.72.1.el10_2.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/aarch64/appstream/os/Packages/k/kernel-headers-6.12.0-211.74.1.el10_2.aarch64.rpm
     repoid: ubi-10-for-aarch64-appstream-rpms
-    size: 3749617
-    checksum: sha256:ce650c11f7c64bab5e4741dbb9d109ee9239e1b87c484b77771af068251f5caf
+    size: 3750873
+    checksum: sha256:0188c5c2daa4feb1dfa96c147748f2dfdb928cf94e9e889d7fc1794475f56d0a
     name: kernel-headers
-    evr: 6.12.0-211.72.1.el10_2
-    sourcerpm: kernel-6.12.0-211.72.1.el10_2.src.rpm
+    evr: 6.12.0-211.74.1.el10_2
+    sourcerpm: kernel-6.12.0-211.74.1.el10_2.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/aarch64/appstream/os/Packages/l/libasan-14.3.1-4.4.el10.aarch64.rpm
     repoid: ubi-10-for-aarch64-appstream-rpms
     size: 543502
@@ -312,41 +312,41 @@ arches:
     name: ncurses-devel
     evr: 6.4-15.20240127.el10_1
     sourcerpm: ncurses-6.4-15.20240127.el10_1.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/aarch64/appstream/os/Packages/n/nodejs-22.23.2-3.el10_2.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/aarch64/appstream/os/Packages/n/nodejs-22.23.4-1.el10_2.aarch64.rpm
     repoid: ubi-10-for-aarch64-appstream-rpms
-    size: 60513
-    checksum: sha256:a50163a3aea55e50d4fd938bf741d8cd285e55df60ced887ac9f989aabaf944c
+    size: 60634
+    checksum: sha256:60d5447258b83fe68fb1f8ef4d493213774ceb7fcc3dff7455bb64f44352f881
     name: nodejs
-    evr: 1:22.23.2-3.el10_2
-    sourcerpm: nodejs22-22.23.2-3.el10_2.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/aarch64/appstream/os/Packages/n/nodejs-docs-22.23.2-3.el10_2.noarch.rpm
+    evr: 1:22.23.4-1.el10_2
+    sourcerpm: nodejs22-22.23.4-1.el10_2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/aarch64/appstream/os/Packages/n/nodejs-docs-22.23.4-1.el10_2.noarch.rpm
     repoid: ubi-10-for-aarch64-appstream-rpms
-    size: 9706662
-    checksum: sha256:bd3c618642f45f828d827fe75399b9db7486d81cd0ea38cf444989f81593f418
+    size: 9712011
+    checksum: sha256:d6352be01f456123037e91c49a4d1b69327be6a0272f89584b24e510c33c58c4
     name: nodejs-docs
-    evr: 1:22.23.2-3.el10_2
-    sourcerpm: nodejs22-22.23.2-3.el10_2.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/aarch64/appstream/os/Packages/n/nodejs-full-i18n-22.23.2-3.el10_2.aarch64.rpm
+    evr: 1:22.23.4-1.el10_2
+    sourcerpm: nodejs22-22.23.4-1.el10_2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/aarch64/appstream/os/Packages/n/nodejs-full-i18n-22.23.4-1.el10_2.aarch64.rpm
     repoid: ubi-10-for-aarch64-appstream-rpms
-    size: 9309296
-    checksum: sha256:2c3e3d27c7b58e0642e290f25bc767db733592cf5e1dd18d3cef18d8bd01530b
+    size: 9305317
+    checksum: sha256:d81497ac12a70aa1b96264038feea612b0da95962efb0e86813f60fae8708b0f
     name: nodejs-full-i18n
-    evr: 1:22.23.2-3.el10_2
-    sourcerpm: nodejs22-22.23.2-3.el10_2.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/aarch64/appstream/os/Packages/n/nodejs-libs-22.23.2-3.el10_2.aarch64.rpm
+    evr: 1:22.23.4-1.el10_2
+    sourcerpm: nodejs22-22.23.4-1.el10_2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/aarch64/appstream/os/Packages/n/nodejs-libs-22.23.4-1.el10_2.aarch64.rpm
     repoid: ubi-10-for-aarch64-appstream-rpms
-    size: 19700282
-    checksum: sha256:23bdf0e7a22ee6460a16d6580e64fc4cfb1e2c69e735014c39c4f1f6eacc8c06
+    size: 19687098
+    checksum: sha256:813777d465a4988d598bd42cffd8a59628f17f0de0c9f8b343d8be2822f084c3
     name: nodejs-libs
-    evr: 1:22.23.2-3.el10_2
-    sourcerpm: nodejs22-22.23.2-3.el10_2.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/aarch64/appstream/os/Packages/n/nodejs-npm-10.9.8-1.22.23.2.3.el10_2.aarch64.rpm
+    evr: 1:22.23.4-1.el10_2
+    sourcerpm: nodejs22-22.23.4-1.el10_2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/aarch64/appstream/os/Packages/n/nodejs-npm-10.9.9-1.22.23.4.1.el10_2.aarch64.rpm
     repoid: ubi-10-for-aarch64-appstream-rpms
-    size: 2624136
-    checksum: sha256:b9acf064c92c5c9237f7eb4737d2a9872516c1bb5f3a90d13cff034931acdde2
+    size: 2631450
+    checksum: sha256:17b5d43fec3ff744709fdf53977138b336de4a0c93346225813f88edbfb77fe1
     name: nodejs-npm
-    evr: 1:10.9.8-1.22.23.2.3.el10_2
-    sourcerpm: nodejs22-22.23.2-3.el10_2.src.rpm
+    evr: 1:10.9.9-1.22.23.4.1.el10_2
+    sourcerpm: nodejs22-22.23.4-1.el10_2.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/aarch64/appstream/os/Packages/o/openssl-devel-3.5.8-2.el10_2.aarch64.rpm
     repoid: ubi-10-for-aarch64-appstream-rpms
     size: 4443096
@@ -1039,12 +1039,12 @@ arches:
     checksum: sha256:47744db993c977d6d017d11a80b46d6aab6519fa19fd539fd93dcde402ec693f
     name: llvm
     evr: 21.1.8-1.el10
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/aarch64/appstream/source/SRPMS/Packages/n/nodejs22-22.23.2-3.el10_2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/aarch64/appstream/source/SRPMS/Packages/n/nodejs22-22.23.4-1.el10_2.src.rpm
     repoid: ubi-10-for-aarch64-appstream-source-rpms
-    size: 96776310
-    checksum: sha256:9f0d0c698e510ce47f1379017a79102cf7e8b72978af171ce03480a26a1cfa55
+    size: 96623909
+    checksum: sha256:0418cae8020ba45ec51cf2350bcdd896ef5b6d2aadfabfb1611d1ddeeb38d14a
     name: nodejs22
-    evr: 1:22.23.2-3.el10_2
+    evr: 1:22.23.4-1.el10_2
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/aarch64/appstream/source/SRPMS/Packages/p/perl-5.40.2-515.el10_2.src.rpm
     repoid: ubi-10-for-aarch64-appstream-source-rpms
     size: 14309759
@@ -1582,13 +1582,13 @@ arches:
     name: glibc-devel
     evr: 2.39-145.el10_2
     sourcerpm: glibc-2.39-145.el10_2.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/ppc64le/appstream/os/Packages/k/kernel-headers-6.12.0-211.72.1.el10_2.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/ppc64le/appstream/os/Packages/k/kernel-headers-6.12.0-211.74.1.el10_2.ppc64le.rpm
     repoid: ubi-10-for-ppc64le-appstream-rpms
-    size: 3769177
-    checksum: sha256:5de63775b5e5747c0fcf91750940496e91817a588d0a9ae3e21e407ce0e51203
+    size: 3770465
+    checksum: sha256:a5651417960aa5c272b4418235dd36e3be173ce077f9a817477dcc3f6f9b9dfb
     name: kernel-headers
-    evr: 6.12.0-211.72.1.el10_2
-    sourcerpm: kernel-6.12.0-211.72.1.el10_2.src.rpm
+    evr: 6.12.0-211.74.1.el10_2
+    sourcerpm: kernel-6.12.0-211.74.1.el10_2.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/ppc64le/appstream/os/Packages/l/libasan-14.3.1-4.4.el10.ppc64le.rpm
     repoid: ubi-10-for-ppc64le-appstream-rpms
     size: 552598
@@ -1722,41 +1722,41 @@ arches:
     name: ncurses-devel
     evr: 6.4-15.20240127.el10_1
     sourcerpm: ncurses-6.4-15.20240127.el10_1.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/ppc64le/appstream/os/Packages/n/nodejs-22.23.2-3.el10_2.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/ppc64le/appstream/os/Packages/n/nodejs-22.23.4-1.el10_2.ppc64le.rpm
     repoid: ubi-10-for-ppc64le-appstream-rpms
-    size: 60460
-    checksum: sha256:395f0b06e3a5872806347e49f561aef02141e327274181b38df43312505944f7
+    size: 60589
+    checksum: sha256:c335a6ebe2a999084b8a9c89a3b365f69a9343b9ef6a406a3aa64af102018963
     name: nodejs
-    evr: 1:22.23.2-3.el10_2
-    sourcerpm: nodejs22-22.23.2-3.el10_2.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/ppc64le/appstream/os/Packages/n/nodejs-docs-22.23.2-3.el10_2.noarch.rpm
+    evr: 1:22.23.4-1.el10_2
+    sourcerpm: nodejs22-22.23.4-1.el10_2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/ppc64le/appstream/os/Packages/n/nodejs-docs-22.23.4-1.el10_2.noarch.rpm
     repoid: ubi-10-for-ppc64le-appstream-rpms
-    size: 9706662
-    checksum: sha256:bd3c618642f45f828d827fe75399b9db7486d81cd0ea38cf444989f81593f418
+    size: 9712011
+    checksum: sha256:d6352be01f456123037e91c49a4d1b69327be6a0272f89584b24e510c33c58c4
     name: nodejs-docs
-    evr: 1:22.23.2-3.el10_2
-    sourcerpm: nodejs22-22.23.2-3.el10_2.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/ppc64le/appstream/os/Packages/n/nodejs-full-i18n-22.23.2-3.el10_2.ppc64le.rpm
+    evr: 1:22.23.4-1.el10_2
+    sourcerpm: nodejs22-22.23.4-1.el10_2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/ppc64le/appstream/os/Packages/n/nodejs-full-i18n-22.23.4-1.el10_2.ppc64le.rpm
     repoid: ubi-10-for-ppc64le-appstream-rpms
-    size: 9309296
-    checksum: sha256:98604d737bdcb7602dc4bc5d8e649ca410ea5e0c657a9b02e89c95210e129880
+    size: 9305317
+    checksum: sha256:7781826cd9078ea5cebde1a162ba35ae44fd1bf54756b86d681d6a66ac9d3452
     name: nodejs-full-i18n
-    evr: 1:22.23.2-3.el10_2
-    sourcerpm: nodejs22-22.23.2-3.el10_2.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/ppc64le/appstream/os/Packages/n/nodejs-libs-22.23.2-3.el10_2.ppc64le.rpm
+    evr: 1:22.23.4-1.el10_2
+    sourcerpm: nodejs22-22.23.4-1.el10_2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/ppc64le/appstream/os/Packages/n/nodejs-libs-22.23.4-1.el10_2.ppc64le.rpm
     repoid: ubi-10-for-ppc64le-appstream-rpms
-    size: 21303109
-    checksum: sha256:039f487d2d752ff3070244f1da08a0f8ff135ac6522e0e3011e0150af8690423
+    size: 21289867
+    checksum: sha256:c19a96843b450dc73a00ad8c8a78d2caa20ed2a3779aa07758baee66a0625757
     name: nodejs-libs
-    evr: 1:22.23.2-3.el10_2
-    sourcerpm: nodejs22-22.23.2-3.el10_2.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/ppc64le/appstream/os/Packages/n/nodejs-npm-10.9.8-1.22.23.2.3.el10_2.ppc64le.rpm
+    evr: 1:22.23.4-1.el10_2
+    sourcerpm: nodejs22-22.23.4-1.el10_2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/ppc64le/appstream/os/Packages/n/nodejs-npm-10.9.9-1.22.23.4.1.el10_2.ppc64le.rpm
     repoid: ubi-10-for-ppc64le-appstream-rpms
-    size: 2624140
-    checksum: sha256:0b0e474ffb3244e7bae9936459a4983ce20ad19867692dc77355154897c76224
+    size: 2631454
+    checksum: sha256:a1ffdd80bb5ea9c45973d5043b6b5f594cfece79611c0b4e81e949aefd0d596a
     name: nodejs-npm
-    evr: 1:10.9.8-1.22.23.2.3.el10_2
-    sourcerpm: nodejs22-22.23.2-3.el10_2.src.rpm
+    evr: 1:10.9.9-1.22.23.4.1.el10_2
+    sourcerpm: nodejs22-22.23.4-1.el10_2.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/ppc64le/appstream/os/Packages/o/openssl-devel-3.5.8-2.el10_2.ppc64le.rpm
     repoid: ubi-10-for-ppc64le-appstream-rpms
     size: 4443088
@@ -2449,12 +2449,12 @@ arches:
     checksum: sha256:47744db993c977d6d017d11a80b46d6aab6519fa19fd539fd93dcde402ec693f
     name: llvm
     evr: 21.1.8-1.el10
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/ppc64le/appstream/source/SRPMS/Packages/n/nodejs22-22.23.2-3.el10_2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/ppc64le/appstream/source/SRPMS/Packages/n/nodejs22-22.23.4-1.el10_2.src.rpm
     repoid: ubi-10-for-ppc64le-appstream-source-rpms
-    size: 96776310
-    checksum: sha256:9f0d0c698e510ce47f1379017a79102cf7e8b72978af171ce03480a26a1cfa55
+    size: 96623909
+    checksum: sha256:0418cae8020ba45ec51cf2350bcdd896ef5b6d2aadfabfb1611d1ddeeb38d14a
     name: nodejs22
-    evr: 1:22.23.2-3.el10_2
+    evr: 1:22.23.4-1.el10_2
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/ppc64le/appstream/source/SRPMS/Packages/p/perl-5.40.2-515.el10_2.src.rpm
     repoid: ubi-10-for-ppc64le-appstream-source-rpms
     size: 14309759
@@ -2992,13 +2992,13 @@ arches:
     name: glibc-devel
     evr: 2.39-145.el10_2
     sourcerpm: glibc-2.39-145.el10_2.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/s390x/appstream/os/Packages/k/kernel-headers-6.12.0-211.72.1.el10_2.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/s390x/appstream/os/Packages/k/kernel-headers-6.12.0-211.74.1.el10_2.s390x.rpm
     repoid: ubi-10-for-s390x-appstream-rpms
-    size: 3778849
-    checksum: sha256:24ce2092c56175ad1cf747c84e7c3630305bdc5fd597b84916af7f01640ff6fd
+    size: 3780141
+    checksum: sha256:e121ea4014b2ce9a5583da116203cf67323636f05dee5270c0dcc79e119e1e0f
     name: kernel-headers
-    evr: 6.12.0-211.72.1.el10_2
-    sourcerpm: kernel-6.12.0-211.72.1.el10_2.src.rpm
+    evr: 6.12.0-211.74.1.el10_2
+    sourcerpm: kernel-6.12.0-211.74.1.el10_2.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/s390x/appstream/os/Packages/l/libasan-14.3.1-4.4.el10.s390x.rpm
     repoid: ubi-10-for-s390x-appstream-rpms
     size: 573505
@@ -3118,41 +3118,41 @@ arches:
     name: ncurses-devel
     evr: 6.4-15.20240127.el10_1
     sourcerpm: ncurses-6.4-15.20240127.el10_1.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/s390x/appstream/os/Packages/n/nodejs-22.23.2-3.el10_2.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/s390x/appstream/os/Packages/n/nodejs-22.23.4-1.el10_2.s390x.rpm
     repoid: ubi-10-for-s390x-appstream-rpms
-    size: 59973
-    checksum: sha256:3863b2d132e4668662f537795f91441f14018d8493e4d058e47e1841fefdeccd
+    size: 60149
+    checksum: sha256:762dd16e400919d7a7c9cf3dfc3fcdc3cb359dc4cb65a673a4dbd7f069f66cdf
     name: nodejs
-    evr: 1:22.23.2-3.el10_2
-    sourcerpm: nodejs22-22.23.2-3.el10_2.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/s390x/appstream/os/Packages/n/nodejs-docs-22.23.2-3.el10_2.noarch.rpm
+    evr: 1:22.23.4-1.el10_2
+    sourcerpm: nodejs22-22.23.4-1.el10_2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/s390x/appstream/os/Packages/n/nodejs-docs-22.23.4-1.el10_2.noarch.rpm
     repoid: ubi-10-for-s390x-appstream-rpms
-    size: 9706662
-    checksum: sha256:bd3c618642f45f828d827fe75399b9db7486d81cd0ea38cf444989f81593f418
+    size: 9712011
+    checksum: sha256:d6352be01f456123037e91c49a4d1b69327be6a0272f89584b24e510c33c58c4
     name: nodejs-docs
-    evr: 1:22.23.2-3.el10_2
-    sourcerpm: nodejs22-22.23.2-3.el10_2.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/s390x/appstream/os/Packages/n/nodejs-full-i18n-22.23.2-3.el10_2.s390x.rpm
+    evr: 1:22.23.4-1.el10_2
+    sourcerpm: nodejs22-22.23.4-1.el10_2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/s390x/appstream/os/Packages/n/nodejs-full-i18n-22.23.4-1.el10_2.s390x.rpm
     repoid: ubi-10-for-s390x-appstream-rpms
-    size: 9279648
-    checksum: sha256:30fdf79528a4b3ce49cf1104e24070ed5efeeb2ef084b5e6bc629be944ca6344
+    size: 9281072
+    checksum: sha256:9d7d92c23429508182ed07225ff5aceb3daec78782f203764bec3abdfebfec36
     name: nodejs-full-i18n
-    evr: 1:22.23.2-3.el10_2
-    sourcerpm: nodejs22-22.23.2-3.el10_2.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/s390x/appstream/os/Packages/n/nodejs-libs-22.23.2-3.el10_2.s390x.rpm
+    evr: 1:22.23.4-1.el10_2
+    sourcerpm: nodejs22-22.23.4-1.el10_2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/s390x/appstream/os/Packages/n/nodejs-libs-22.23.4-1.el10_2.s390x.rpm
     repoid: ubi-10-for-s390x-appstream-rpms
-    size: 21956616
-    checksum: sha256:aacd4d2645ff2ea83dc695ea5d17ad6d570147d44967491dfe9158d3548e825b
+    size: 22073271
+    checksum: sha256:c72491383b2828a93af2314c7aee24103c32284196bf4b7d441ec5abf3af8cfa
     name: nodejs-libs
-    evr: 1:22.23.2-3.el10_2
-    sourcerpm: nodejs22-22.23.2-3.el10_2.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/s390x/appstream/os/Packages/n/nodejs-npm-10.9.8-1.22.23.2.3.el10_2.s390x.rpm
+    evr: 1:22.23.4-1.el10_2
+    sourcerpm: nodejs22-22.23.4-1.el10_2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/s390x/appstream/os/Packages/n/nodejs-npm-10.9.9-1.22.23.4.1.el10_2.s390x.rpm
     repoid: ubi-10-for-s390x-appstream-rpms
-    size: 2624132
-    checksum: sha256:7a700fd6e2230905de19dc17834e63a7f9237451e319dd9c5054df1165711c5e
+    size: 2631446
+    checksum: sha256:e4bbcc5cb713df5a6a3f59d04eba7641a725ccf4e81758e675af3e71e882e4e4
     name: nodejs-npm
-    evr: 1:10.9.8-1.22.23.2.3.el10_2
-    sourcerpm: nodejs22-22.23.2-3.el10_2.src.rpm
+    evr: 1:10.9.9-1.22.23.4.1.el10_2
+    sourcerpm: nodejs22-22.23.4-1.el10_2.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/s390x/appstream/os/Packages/o/openssl-devel-3.5.8-2.el10_2.s390x.rpm
     repoid: ubi-10-for-s390x-appstream-rpms
     size: 4444046
@@ -3845,12 +3845,12 @@ arches:
     checksum: sha256:47744db993c977d6d017d11a80b46d6aab6519fa19fd539fd93dcde402ec693f
     name: llvm
     evr: 21.1.8-1.el10
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/s390x/appstream/source/SRPMS/Packages/n/nodejs22-22.23.2-3.el10_2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/s390x/appstream/source/SRPMS/Packages/n/nodejs22-22.23.4-1.el10_2.src.rpm
     repoid: ubi-10-for-s390x-appstream-source-rpms
-    size: 96776310
-    checksum: sha256:9f0d0c698e510ce47f1379017a79102cf7e8b72978af171ce03480a26a1cfa55
+    size: 96623909
+    checksum: sha256:0418cae8020ba45ec51cf2350bcdd896ef5b6d2aadfabfb1611d1ddeeb38d14a
     name: nodejs22
-    evr: 1:22.23.2-3.el10_2
+    evr: 1:22.23.4-1.el10_2
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/s390x/appstream/source/SRPMS/Packages/p/perl-5.40.2-515.el10_2.src.rpm
     repoid: ubi-10-for-s390x-appstream-source-rpms
     size: 14309759
@@ -4388,13 +4388,13 @@ arches:
     name: glibc-devel
     evr: 2.39-145.el10_2
     sourcerpm: glibc-2.39-145.el10_2.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/appstream/os/Packages/k/kernel-headers-6.12.0-211.72.1.el10_2.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/appstream/os/Packages/k/kernel-headers-6.12.0-211.74.1.el10_2.x86_64.rpm
     repoid: ubi-10-for-x86_64-appstream-rpms
-    size: 3787765
-    checksum: sha256:b31a4c8a8620e37b56a31bd14d2fc24edf65098708a923b7f120d1d169c6d38d
+    size: 3789065
+    checksum: sha256:74eb045ad0eda5d8c2aec91eca86a813494480e2c29ef5b9e5b1e5e5a026f79d
     name: kernel-headers
-    evr: 6.12.0-211.72.1.el10_2
-    sourcerpm: kernel-6.12.0-211.72.1.el10_2.src.rpm
+    evr: 6.12.0-211.74.1.el10_2
+    sourcerpm: kernel-6.12.0-211.74.1.el10_2.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/appstream/os/Packages/l/libedit-devel-3.1-52.20230828cvs.el10.x86_64.rpm
     repoid: ubi-10-for-x86_64-appstream-rpms
     size: 53585
@@ -4514,41 +4514,41 @@ arches:
     name: ncurses-devel
     evr: 6.4-15.20240127.el10_1
     sourcerpm: ncurses-6.4-15.20240127.el10_1.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/appstream/os/Packages/n/nodejs-22.23.2-3.el10_2.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/appstream/os/Packages/n/nodejs-22.23.4-1.el10_2.x86_64.rpm
     repoid: ubi-10-for-x86_64-appstream-rpms
-    size: 60430
-    checksum: sha256:c9d7791c0dc96c3d598cf763d151e4033b2468fbb7ddeecbabb2735f0cff81fd
+    size: 60600
+    checksum: sha256:2a92950846ab9d9e5bfe0a312623db6c7e67283fad9a43cc71f642506210b0fd
     name: nodejs
-    evr: 1:22.23.2-3.el10_2
-    sourcerpm: nodejs22-22.23.2-3.el10_2.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/appstream/os/Packages/n/nodejs-docs-22.23.2-3.el10_2.noarch.rpm
+    evr: 1:22.23.4-1.el10_2
+    sourcerpm: nodejs22-22.23.4-1.el10_2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/appstream/os/Packages/n/nodejs-docs-22.23.4-1.el10_2.noarch.rpm
     repoid: ubi-10-for-x86_64-appstream-rpms
-    size: 9706662
-    checksum: sha256:bd3c618642f45f828d827fe75399b9db7486d81cd0ea38cf444989f81593f418
+    size: 9712011
+    checksum: sha256:d6352be01f456123037e91c49a4d1b69327be6a0272f89584b24e510c33c58c4
     name: nodejs-docs
-    evr: 1:22.23.2-3.el10_2
-    sourcerpm: nodejs22-22.23.2-3.el10_2.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/appstream/os/Packages/n/nodejs-full-i18n-22.23.2-3.el10_2.x86_64.rpm
+    evr: 1:22.23.4-1.el10_2
+    sourcerpm: nodejs22-22.23.4-1.el10_2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/appstream/os/Packages/n/nodejs-full-i18n-22.23.4-1.el10_2.x86_64.rpm
     repoid: ubi-10-for-x86_64-appstream-rpms
-    size: 9309336
-    checksum: sha256:e3e0e600f96efce36cf73d9e76a84d5fd1470fd9d5c1d50d7d64f44a1fe9a834
+    size: 9305357
+    checksum: sha256:d48002e8093a5fb302b4d3ee223db3b2cb73acd9b94cb2238ab5a939f5e39f38
     name: nodejs-full-i18n
-    evr: 1:22.23.2-3.el10_2
-    sourcerpm: nodejs22-22.23.2-3.el10_2.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/appstream/os/Packages/n/nodejs-libs-22.23.2-3.el10_2.x86_64.rpm
+    evr: 1:22.23.4-1.el10_2
+    sourcerpm: nodejs22-22.23.4-1.el10_2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/appstream/os/Packages/n/nodejs-libs-22.23.4-1.el10_2.x86_64.rpm
     repoid: ubi-10-for-x86_64-appstream-rpms
-    size: 20717458
-    checksum: sha256:45faf56212f9294f4f2cf06213c886e5c8b3a1546fd82342943d6fc7f225243a
+    size: 20711805
+    checksum: sha256:612e0e12ef23c497acd3e7166843fdbaa5f7e73ad35a7136b2501351f3ab74cf
     name: nodejs-libs
-    evr: 1:22.23.2-3.el10_2
-    sourcerpm: nodejs22-22.23.2-3.el10_2.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/appstream/os/Packages/n/nodejs-npm-10.9.8-1.22.23.2.3.el10_2.x86_64.rpm
+    evr: 1:22.23.4-1.el10_2
+    sourcerpm: nodejs22-22.23.4-1.el10_2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/appstream/os/Packages/n/nodejs-npm-10.9.9-1.22.23.4.1.el10_2.x86_64.rpm
     repoid: ubi-10-for-x86_64-appstream-rpms
-    size: 2624176
-    checksum: sha256:d052fbe1ac597466d320816779a29f71f7ac2caaaed4a144d74097b5d8ad20e3
+    size: 2631490
+    checksum: sha256:06c515852e48325c49b79e8bfe1b2d4a6e9c185a9424131af3d65f539312d2e8
     name: nodejs-npm
-    evr: 1:10.9.8-1.22.23.2.3.el10_2
-    sourcerpm: nodejs22-22.23.2-3.el10_2.src.rpm
+    evr: 1:10.9.9-1.22.23.4.1.el10_2
+    sourcerpm: nodejs22-22.23.4-1.el10_2.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/appstream/os/Packages/o/openssl-devel-3.5.8-2.el10_2.x86_64.rpm
     repoid: ubi-10-for-x86_64-appstream-rpms
     size: 4443996
@@ -5241,12 +5241,12 @@ arches:
     checksum: sha256:47744db993c977d6d017d11a80b46d6aab6519fa19fd539fd93dcde402ec693f
     name: llvm
     evr: 21.1.8-1.el10
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/appstream/source/SRPMS/Packages/n/nodejs22-22.23.2-3.el10_2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/appstream/source/SRPMS/Packages/n/nodejs22-22.23.4-1.el10_2.src.rpm
     repoid: ubi-10-for-x86_64-appstream-source-rpms
-    size: 96776310
-    checksum: sha256:9f0d0c698e510ce47f1379017a79102cf7e8b72978af171ce03480a26a1cfa55
+    size: 96623909
+    checksum: sha256:0418cae8020ba45ec51cf2350bcdd896ef5b6d2aadfabfb1611d1ddeeb38d14a
     name: nodejs22
-    evr: 1:22.23.2-3.el10_2
+    evr: 1:22.23.4-1.el10_2
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/appstream/source/SRPMS/Packages/p/perl-5.40.2-515.el10_2.src.rpm
     repoid: ubi-10-for-x86_64-appstream-source-rpms
     size: 14309759
