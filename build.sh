@@ -18,7 +18,7 @@ fi
 
 # unpack sources
 
-tar xaf /cachi2/output/deps/generic/rustc-$TO-src.tar.xz
+tar xaf /prefetch/output/deps/generic/rustc-$TO-src.tar.xz
 
 # collect copy license files
 
