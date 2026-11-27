@@ -172,13 +172,13 @@ arches:
     name: glibc-devel
     evr: 2.39-147.el10_3
     sourcerpm: glibc-2.39-147.el10_3.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/aarch64/appstream/os/Packages/k/kernel-headers-6.12.0-264.20.1.el10_3.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/aarch64/appstream/os/Packages/k/kernel-headers-6.12.0-264.21.1.el10_3.aarch64.rpm
     repoid: ubi-10-for-aarch64-appstream-rpms
-    size: 3553057
-    checksum: sha256:79831e8eb7fb166dd9589b01e81e29440f5f0839945924a708e867eb280b9f71
+    size: 3556549
+    checksum: sha256:4df9e7d771ed3e055a5c29672d451e79c8b39d2c4f7f3a767f05910cb7b52d44
     name: kernel-headers
-    evr: 6.12.0-264.20.1.el10_3
-    sourcerpm: kernel-6.12.0-264.20.1.el10_3.src.rpm
+    evr: 6.12.0-264.21.1.el10_3
+    sourcerpm: kernel-6.12.0-264.21.1.el10_3.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/aarch64/appstream/os/Packages/l/libasan-14.4.1-5.el10_3.aarch64.rpm
     repoid: ubi-10-for-aarch64-appstream-rpms
     size: 534497
@@ -1582,13 +1582,13 @@ arches:
     name: glibc-devel
     evr: 2.39-147.el10_3
     sourcerpm: glibc-2.39-147.el10_3.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/ppc64le/appstream/os/Packages/k/kernel-headers-6.12.0-264.20.1.el10_3.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/ppc64le/appstream/os/Packages/k/kernel-headers-6.12.0-264.21.1.el10_3.ppc64le.rpm
     repoid: ubi-10-for-ppc64le-appstream-rpms
-    size: 3572665
-    checksum: sha256:40573bc65af46a11f6fa34c569b2aa849c8d332b83edb662891063b0b5ad8d1b
+    size: 3576141
+    checksum: sha256:41c3fe9cfc225075df591436a36951cc25714366fdef67da24e9f6741a381c01
     name: kernel-headers
-    evr: 6.12.0-264.20.1.el10_3
-    sourcerpm: kernel-6.12.0-264.20.1.el10_3.src.rpm
+    evr: 6.12.0-264.21.1.el10_3
+    sourcerpm: kernel-6.12.0-264.21.1.el10_3.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/ppc64le/appstream/os/Packages/l/libasan-14.4.1-5.el10_3.ppc64le.rpm
     repoid: ubi-10-for-ppc64le-appstream-rpms
     size: 543218
@@ -2992,13 +2992,13 @@ arches:
     name: glibc-devel
     evr: 2.39-147.el10_3
     sourcerpm: glibc-2.39-147.el10_3.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/s390x/appstream/os/Packages/k/kernel-headers-6.12.0-264.20.1.el10_3.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/s390x/appstream/os/Packages/k/kernel-headers-6.12.0-264.21.1.el10_3.s390x.rpm
     repoid: ubi-10-for-s390x-appstream-rpms
-    size: 3582225
-    checksum: sha256:bbf730aca86a2fb038df099f77d5845cfaa05f86f1f9e7991bef762f4af6c128
+    size: 3585725
+    checksum: sha256:b24cf0355885f10e7202fabbba8167988f68cea9a8ed3d4ebd821be214c14353
     name: kernel-headers
-    evr: 6.12.0-264.20.1.el10_3
-    sourcerpm: kernel-6.12.0-264.20.1.el10_3.src.rpm
+    evr: 6.12.0-264.21.1.el10_3
+    sourcerpm: kernel-6.12.0-264.21.1.el10_3.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/s390x/appstream/os/Packages/l/libasan-14.4.1-5.el10_3.s390x.rpm
     repoid: ubi-10-for-s390x-appstream-rpms
     size: 570049
@@ -4388,13 +4388,13 @@ arches:
     name: glibc-devel
     evr: 2.39-147.el10_3
     sourcerpm: glibc-2.39-147.el10_3.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/appstream/os/Packages/k/kernel-headers-6.12.0-264.20.1.el10_3.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/appstream/os/Packages/k/kernel-headers-6.12.0-264.21.1.el10_3.x86_64.rpm
     repoid: ubi-10-for-x86_64-appstream-rpms
-    size: 3591589
-    checksum: sha256:28bd6ec009c9a684bdbcb5ad93acf8cc224a82d2d50aef3c642e584ccdec42e4
+    size: 3595061
+    checksum: sha256:b789e7f3e47f5b4b42bbddaea27e76af2e12e21af66b2564cffa587a6c55cc07
     name: kernel-headers
-    evr: 6.12.0-264.20.1.el10_3
-    sourcerpm: kernel-6.12.0-264.20.1.el10_3.src.rpm
+    evr: 6.12.0-264.21.1.el10_3
+    sourcerpm: kernel-6.12.0-264.21.1.el10_3.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/appstream/os/Packages/l/libedit-devel-3.1-52.20230828cvs.el10.x86_64.rpm
     repoid: ubi-10-for-x86_64-appstream-rpms
     size: 53585
